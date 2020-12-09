@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a80336cc-fb41-49bc-8bcb-f0a27a5ba4e3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1lNxkij08RkbXTRTLgcOeBUhYzN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eyzis" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApplicationInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eyzis.ApplicationInitializer" />
+      <module name="LanguageRecognizer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eyzis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationInitializer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a80336cc-fb41-49bc-8bcb-f0a27a5ba4e3" name="Default Changelist" comment="" />
+      <created>1607451494735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607451494735</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607457303549">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607457303549" />
+    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1607456203840">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1607456203840" />
+    <state x="918" y="78" key="#xdebugger.evaluate" timestamp="1607457519305">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="918" y="78" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1607457519305" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1607499559216">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607499559216" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1607499559204">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607499559204" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1607499559161">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607499559161" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1607499559210">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607499559210" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1607499559222">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607499559222" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1607457945942" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1607499559219">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607499559219" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1607457945940" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1607499559218">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607499559218" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1607457945940" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1607499559221">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607499559221" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1607457945941" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1607456288365">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607456288365" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607456283912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607456283912" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
