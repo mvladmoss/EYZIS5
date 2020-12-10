@@ -27,6 +27,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
 
     implementation "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+    compile 'com.google.cloud:google-cloud-speech:1.24.7'
 
     compile group: 'org.telegram', name: 'telegrambots', version: '4.9.2'
     compile group: 'org.telegram', name: 'telegrambotsextensions', version: '4.9.2'

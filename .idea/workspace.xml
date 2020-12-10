@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80336cc-fb41-49bc-8bcb-f0a27a5ba4e3" name="Default Changelist" comment="" />
+    <list default="true" id="a80336cc-fb41-49bc-8bcb-f0a27a5ba4e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eyzis/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/LanguageRecognizer-760e8ed7f55c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/eyzis/ApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/eyzis/ApplicationInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/eyzis/TelegramBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/eyzis/TelegramBot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/eyzis/TelegramConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/eyzis/TelegramConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +50,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -40,19 +63,27 @@
   <component name="ProjectId" id="1lNxkij08RkbXTRTLgcOeBUhYzN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\EYZIS5\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eyzis" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\EYZIS5" />
     </key>
   </component>
   <component name="RunManager">
@@ -75,6 +106,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -97,50 +129,77 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1607456203840" />
-    <state x="918" y="78" key="#xdebugger.evaluate" timestamp="1607457519305">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1224" y="101" key="#xdebugger.evaluate" timestamp="1607584332124">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="918" y="78" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1607457519305" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1607499559216">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1224" y="101" key="#xdebugger.evaluate/0.0.1920.1160@0.0.1920.1160" timestamp="1607584332124" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607529528151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607529528151" />
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom" timestamp="1607584575763">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607499559216" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1607499559204">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607543653806" />
+    <state width="1877" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1607584575763" />
+    <state width="1877" height="359" key="GridCell.Tab.0.center" timestamp="1607584575763">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607499559204" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1607499559161">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607543653806" />
+    <state width="1877" height="359" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1607584575763" />
+    <state width="1877" height="359" key="GridCell.Tab.0.left" timestamp="1607584575763">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607499559161" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1607499559210">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607543653806" />
+    <state width="1877" height="359" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1607584575763" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right" timestamp="1607584575763">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607499559210" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1607499559222">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607543653806" />
+    <state width="1877" height="359" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1607584575763" />
+    <state width="1877" height="268" key="GridCell.Tab.1.bottom" timestamp="1607584413141">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607499559222" />
+    <state width="1877" height="235" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607529932408" />
+    <state width="1877" height="268" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1607584413141" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1607457945942" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1607499559219">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="268" key="GridCell.Tab.1.center" timestamp="1607584413141">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607499559219" />
+    <state width="1877" height="235" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607529932408" />
+    <state width="1877" height="268" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1607584413141" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1607457945940" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1607499559218">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="268" key="GridCell.Tab.1.left" timestamp="1607584413141">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607499559218" />
+    <state width="1877" height="235" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607529932408" />
+    <state width="1877" height="268" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1607584413141" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1607457945940" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1607499559221">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1877" height="268" key="GridCell.Tab.1.right" timestamp="1607584413141">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607499559221" />
+    <state width="1877" height="235" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607529932408" />
+    <state width="1877" height="268" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1607584413141" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1607457945941" />
-    <state x="208" y="31" key="SettingsEditor" timestamp="1607456288365">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="277" y="36" key="SettingsEditor" timestamp="1607529253901">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607456288365" />
+    <state x="277" y="36" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607529253901" />
+    <state x="92" y="103" width="1736" height="955" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607584783329">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607531903930" />
+    <state x="92" y="103" width="1736" height="955" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1607584783329" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607456283912">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -151,23 +210,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
-          <line>37</line>
+          <line>56</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
-          <line>55</line>
+          <line>136</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
-          <line>51</line>
+          <line>131</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/eyzis/TelegramBot.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
