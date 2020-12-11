@@ -7,11 +7,15 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.3.5.RELEASE")
     }
 }
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'org.springframework.boot'
 
-plugins {
-    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
-    id 'java'
-}
+//plugins {
+//    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+//    id 'org.springframework.boot' version '2.4.1'
+//    id 'java'
+//}
 
 
 repositories {

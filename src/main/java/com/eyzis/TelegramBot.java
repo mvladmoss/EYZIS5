@@ -13,6 +13,7 @@ import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
 import java.io.File;
@@ -58,16 +59,16 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
             throw new IllegalStateException("Update doesn't have a body!");
         }
 
-        var message = update.getMessage();
-        var text = message.getText();
+        Message message = update.getMessage();
+        String text = message.getText();
         if (!StringUtils.isEmpty(text) && Language.getValues().contains(text)) {
             this.currentLanguageCode = languageToCodeMap.get(Language.getFromValue(text));
-            var answer = new SendMessage();
+            SendMessage answer = new SendMessage();
             answer.setText("Bot is ready to accept " + Language.getFromValue(text).name().toLowerCase() + " speech");
             answer.setChatId(message.getChatId());
             execute(answer);
         } else if (!StringUtils.isEmpty(text) && !Language.getValues().contains(text)) {
-            var answer = new SendMessage();
+            SendMessage answer = new SendMessage();
             answer.setText(INCORRECT_MESSAGE);
             answer.setChatId(message.getChatId());
             execute(answer);
@@ -78,7 +79,7 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
             File fileToTranslate = encodeToWav(file);
             try {
                 String convertedText = translate(fileToTranslate.getAbsolutePath(), currentLanguageCode);
-                var answer = new SendMessage();
+                SendMessage answer = new SendMessage();
                 answer.setText("You said: " + convertedText);
                 answer.setChatId(message.getChatId());
                 execute(answer);
@@ -87,7 +88,7 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
                 fileToTranslate.delete();
             }
         } else {
-            var answer = new SendMessage();
+            SendMessage answer = new SendMessage();
             answer.setText(INCORRECT_MESSAGE);
             answer.setChatId(message.getChatId());
             execute(answer);
@@ -128,8 +129,8 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
 
     private File encodeToWav(File mp3) {
         try {
-            var outputFileName = mp3.getAbsolutePath().replace("ogg", "wav");
-            var process = new ProcessBuilder("C:\\study\\ffmpeg\\bin\\ffmpeg", "-i",
+            String outputFileName = mp3.getAbsolutePath().replace("ogg", "wav");
+            ProcessBuilder process = new ProcessBuilder("C:\\study\\ffmpeg\\bin\\ffmpeg", "-i",
                     mp3.getAbsolutePath(), "-ar", "16000", "-ac", "1", outputFileName);
             process.redirectErrorStream(true).redirectOutput(ProcessBuilder.Redirect.INHERIT);
             process.start().waitFor();

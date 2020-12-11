@@ -33,13 +33,13 @@ public class TelegramConfiguration {
     
     @Bean
     TelegramLongPollingCommandBot telegramLongPollingCommandBot(List<BotCommand> botCommands) {
-        var botOptions = ApiContext.getInstance(DefaultBotOptions.class);
+        DefaultBotOptions botOptions = ApiContext.getInstance(DefaultBotOptions.class);
         return new TelegramBot(botOptions);
     }
 
     @Bean
     TelegramBotsApi telegramBotsApi(LongPollingBot bot) throws TelegramApiRequestException {
-        var botsApi = new TelegramBotsApi();
+        TelegramBotsApi botsApi = new TelegramBotsApi();
         botsApi.registerBot(bot);
         return botsApi;
     }
