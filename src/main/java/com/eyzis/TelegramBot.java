@@ -80,7 +80,7 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
             try {
                 String convertedText = translate(fileToTranslate.getAbsolutePath(), currentLanguageCode);
                 SendMessage answer = new SendMessage();
-                answer.setText("You said: " + convertedText);
+                answer.setText(convertedText);
                 answer.setChatId(message.getChatId());
                 execute(answer);
             } finally {
@@ -98,7 +98,7 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
     @SneakyThrows
     public String translate(String filePath, String languageCode) {
         CredentialsProvider credentialsProvider = FixedCredentialsProvider.create(ServiceAccountCredentials
-                .fromStream(new FileInputStream(ResourceUtils.getFile("classpath:LanguageRecognizer-760e8ed7f55c.json"))));
+                .fromStream(new FileInputStream(ResourceUtils.getFile("classpath:elkcoursework-7b780cdc02af.json"))));
         SpeechSettings speechSettings = SpeechSettings.newBuilder().setCredentialsProvider(credentialsProvider).build();
 
         try (SpeechClient speechClient = SpeechClient.create(speechSettings)) {
@@ -130,7 +130,7 @@ public class TelegramBot extends TelegramLongPollingCommandBot {
     private File encodeToWav(File mp3) {
         try {
             String outputFileName = mp3.getAbsolutePath().replace("ogg", "wav");
-            ProcessBuilder process = new ProcessBuilder("C:\\study\\ffmpeg\\bin\\ffmpeg", "-i",
+            ProcessBuilder process = new ProcessBuilder("ffmpeg/bin/ffmpeg.exe", "-i",
                     mp3.getAbsolutePath(), "-ar", "16000", "-ac", "1", outputFileName);
             process.redirectErrorStream(true).redirectOutput(ProcessBuilder.Redirect.INHERIT);
             process.start().waitFor();
